@@ -17,6 +17,76 @@
   </head>
   <body>
     <header id="home">
+
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <h3><a href="#home" class="scroll-link" ><span>Matcha</span> World</a></h3>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+          <!-- nav links -->
+          <ul class="nav-links " id="nav-link">
+            <!-- single link -->
+            <li>
+              <a href="#home" class="nav-link scroll-link">Home</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#about" class="nav-link scroll-link">About</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#services" class="nav-link scroll-link">Services</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#featured" class="nav-link scroll-link">Featured</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#gallery" class="nav-link scroll-link">Gallery</a>
+            </li>
+            <!-- end of single link -->
+          </ul>
+          <!-- end of nav link -->
+
+          <!-- nav icons -->
+          <ul class="nav-icons">
+            <!-- single icon -->
+            <li>
+              <a href="https://facebook.com" class="nav-icon" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <!-- end of single icon -->
+            <!-- single icon -->
+            <li>
+              <a href="https://twitter.com" class="nav-icon" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <!-- end of single icon -->
+            <!-- single icon -->
+            <li>
+              <a href="https://squarespace.com" class="nav-icon" target="_blank"
+                ><i class="fab fa-squarespace"></i
+              ></a>
+            </li>
+            <!-- end of single icon -->
+          </ul>
+          <!-- end of nav icons -->
+        </div>
+      </nav>
+
       <!-- hero -->
       <div class="hero">
         <div class="hero-banner">
@@ -120,7 +190,7 @@
     <!--end services -->
 
     <!-- Featured Section -->
-    <section class="section featured">
+    <section class="section featured" id="featured">
       <!-- Featured Title -->
       <div class="featured-title">
         <h2>FEATURED <span>MENU</span></h2>
@@ -219,7 +289,7 @@
           <div class="featured-info">
             <div class="featured-info-title">
               <h4>Matcha Flat Bread</h4>
-              <h4>6 days</h4>
+              <h4>$6.99</h4>
             </div>
             <div class="featured-info-text">
               <p>
@@ -229,9 +299,9 @@
               </p>
             </div>
             <div class="featured-info-icons">
-              <span> <i class="fas fa-socks fa-fw"></i>Indonesia </span>
-              <p>11 Days</p>
-              <p>From $1400</p>
+              <span>Matcha Flour</span>
+              <p>Banana Syrup</p>
+              <p>Gome Butter</p>
             </div>
           </div>
         </article>
@@ -348,21 +418,21 @@
       <ul class="footer-icons">
         <!-- single icon -->
         <li>
-          <a href="https://facebook.com" class="footer-icon"
+          <a href="https://facebook.com" class="footer-icon" target="_blank"
             ><i class="fab fa-facebook"></i
           ></a>
         </li>
         <!-- end of single icon -->
         <!-- single icon -->
         <li>
-          <a href="https://twitter.com" class="footer-icon"
+          <a href="https://twitter.com" class="footer-icon" target="_blank"
             ><i class="fab fa-twitter"></i
           ></a>
         </li>
         <!-- end of single icon -->
         <!-- single icon -->
         <li>
-          <a href="https://squarespace.com" class="footer-icon"
+          <a href="https://squarespace.com" class="footer-icon" target="_blank" 
             ><i class="fab fa-squarespace"></i
           ></a>
         </li>
@@ -370,10 +440,13 @@
       </ul>
       <!-- end of footer icons -->
       <p class="copyright">
-        copyright &copy; backroads travel tours company <span id="date"></span>.
+        copyright &copy; <span class="copyright-company">Matcha Love Company</span> <span id="date"></span>.
         All rights reserved.
       </p>
     </section>
     <!-- end of footer -->
+
+    <!-- javascript -->
+    <script src="./js/index.js"></script>
   </body>
 </html>
